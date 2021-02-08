@@ -1,7 +1,5 @@
-$("#topLogoAndMenu").hide()
-$("#sunIcon").hide()
-$(document).ready(() => {
-    $("#sunIcon").show(1500)
-    $("#topLogoAndMenu").show(1500)
 
+
+$(document).ready(() => {
+    //$("#SunLayer img").animate({"opacity": 1}, 1500)
 })

@@ -1,0 +1,127 @@
+body {
+    
+    height: 100vh;
+    width: 100%;
+    background-color: #0c0d24!important;
+}
+.fsContainer {
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url("./images/back-с.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#SunLayer img {position: absolute; opacity: 1;}
+
+
+.dec {
+    padding-top: 2rem;
+    text-align: center;}
+
+
+
+
+
+.cards {padding: 1rem;}
+
+@media (min-width: 200px) {
+    #SunLayer img {height: 3rem;}
+    .header {padding-top: 2rem;}
+    .d-flex div {display: grid; text-align: center;}
+    #Logo {padding-top: 2rem ;}
+    #Logo img {height: 10rem;}
+    #Links img {height: 2rem;}
+    #Menu {padding-top: 4rem;}
+    #Menu img {height: 1rem;}
+    .fsContainer {background-size: 180% auto;}
+    
+    .dec img {
+        height: 3.8rem;
+    }
+    #choiceText {
+        height: 3rem;
+    }
+    .arrowsBlock img {
+        margin: 1rem;
+        height: 0rem;
+    }
+    #feedback {
+        margin-top: 1rem;
+        height: 3rem;
+    }
+    #choiceText {margin-top: 2rem;}
+    a {font-family: 'Rubik', sans-serif!important; color: white!important;text-decoration: none!important; font-size: 16px;}
+    .point img {
+        margin: 1rem;
+        height: 6rem;
+    }
+}
+
+
+@media (min-width: 400px) {
+    #Menu {padding-top: 6rem;}
+}
+@media (min-width: 567px) {
+    #SunLayer img {height: 5rem;}
+    .header {padding-top: 10rem;}
+    .d-flex div {display: inherit; text-align: center;}
+    #Links img {height: 2rem;}
+    #Logo {padding-top: 3rem;}
+    #Logo img {height: 14rem;}
+    #Menu {padding-top: 6rem;}
+    #Menu img {height: 1.2rem;}
+    .fsContainer {background-size: 130% auto;}
+    .dec img {height: 10rem;}
+    .arrowsBlock {padding-top: 2rem;}
+    #choiceText {margin-top: 1rem;}
+    #choiceText {
+        height: 4rem;
+    }
+    .arrowsBlock img {
+        margin: 1rem;
+        height: 4rem;
+    }
+    #feedback {
+        margin-top: 1rem;
+        height: 4rem;
+    }
+    #choiceText {margin-top: 2rem;}
+    .point img {
+        margin: 1rem;
+        height: 8rem;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    #SunLayer img {height: 8rem;}
+    .header {padding-top: 4rem;}
+    #Logo {padding-top: 2rem;}
+    #Logo img {height: 8rem;}
+    #Menu {padding-top: 1.5rem;}
+    #Links img {height: 2rem;}
+    #Menu img {height: 1.5rem;}
+    .fsContainer {background-size: 100% auto;}
+    .dec {padding-top: 20rem;}
+    .dec img {height: 14rem;}
+    .arrowsBlock {padding-top: 2rem;}
+    #choiceText {margin-top: 1rem;}
+    #choiceText {
+        height: 7rem;
+    }
+    .arrowsBlock img {
+        margin: 1rem;
+        height: 6rem;
+    }
+    #feedback {
+        margin-top: 1rem;
+        height: 6rem;
+    }
+    #choiceText {margin-top: 2rem;}
+    a {font-family: 'Rubik', sans-serif!important; color: black!important;text-decoration: none!important; font-size: 26px;}
+    .point img {
+        margin: 1rem;
+        height: 11rem;
+    }
+}
